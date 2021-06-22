@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">ChordLord</string>
+
+    <!-- Activity 1 -->
+
+    <string name="s1t1">Chord Lord</string>
+    <string name="s1t2">Enter Name:</string>
+    <string name="s1t3">Enter your name</string>
+    <string name="s1t4">Press to Begin</string>
+    <string name="s1t5">Leaderboards</string>
+    <string name="s1t6">Chords Guide</string>
+    <string name="s1t7">Invalid Name</string>
+
+    <!-- Activity 2 -->
+
+    <string name="s2t1">Choose Instrument</string>
+    <string name="s2t2">Piano</string>
+    <string name="s2t3">Guitar</string>
+    <string name="s2t4">Back</string>
+
+    <!-- Activity 3 -->
+
+    <string name="s3t1">Choose difficulty</string>
+    <string name="s3t2">Beginner (2 Chords)</string>
+    <string name="s3t3">Intermediate (3 Chords)</string>
+    <string name="s3t4">Professional (4 Chords)</string>
+
+    <!-- Activity 4 -->
+
+    <string name="s4t1">Choose Scale</string>
+    <string name="s4t2" translatable="false">C Lonian (Major)</string>
+    <string name="s4t3" translatable="false">C Dorian</string>
+    <string name="s4t4" translatable="false">C Phrygian</string>
+    <string name="s4t5" translatable="false">C Lydian</string>
+    <string name="s4t6" translatable="false">C Mixolydian</string>
+    <string name="s4t7" translatable="false">C Aeolian (Minor)</string>
+    <string name="s4t8" translatable="false">C Locrian</string>
+
+    <!-- Activity 5 -->
+
+    <string name="s5t0">Q:</string>
+    <string name="s5t1">Points: </string>
+    <string name="s5t2">Vocabulary: </string>
+    <string name="s5t3">Right: </string>
+    <string name="s5t4">Wrong: </string>
+    <string name="s5t5">Press to Play Chord </string>
+    <string name="s5t6">Select the chord you hear </string>
+
+    <!-- Activity 6 -->
+
+    <string name="s6t1">Congratulations!</string>
+    <string name="s6t2">your score is</string>
+    <string name="s6t3">points</string>
+    <string name="s6t4">with a vocabulary of</string>
+    <string name="s6t5">chords</string>
+    <string name="s6t7">p</string>
+    <string name="s6t8">c</string>
+    <string name="s6t9">Main Menu</string>
+    <string name="s6t10">Repeat Game</string>
+
+    <!-- Activity 7 -->
+
+    <string name="s7t1">Leaderboards</string>
+    <string name="s7t2">Main Menu</string>
+
+    <!-- Activity 8 -->
+
+    <string name="s8t1">Choose Instrument</string>
+    <string name="s8t2">Piano</string>
+    <string name="s8t3">Guitar</string>
+
+    <!-- Activity 9 -->
+
+    <string name="s9t1">Guitar Chords</string>
+    <string name="s9t2">Back to Menu</string>
+
+    <!-- Activity 10 -->
+
+    <string name="s10t1">Piano Chords</string>
+    <string name="s10t2">Back to Menu</string>
+    <string name="cm" translatable="false">Cm</string>
+    <string name="am" translatable="false">Am</string>
+    <string name="adim" translatable="false">Adim</string>
+    <string name="a_" translatable="false">A#</string>
+    <string name="a_m" translatable="false">A#m</string>
+    <string name="bm" translatable="false">Bm</string>
+    <string name="bdim" translatable="false">Bdim</string>
+    <string name="c" translatable="false">C</string>
+    <string name="cdim" translatable="false">Cdim</string>
+    <string name="c_" translatable="false">C#</string>
+    <string name="d" translatable="false">D</string>
+    <string name="dm" translatable="false">Dm</string>
+    <string name="ddim" translatable="false">Ddim</string>
+    <string name="d_" translatable="false">D#</string>
+    <string name="d_m" translatable="false">D#m</string>
+    <string name="em" translatable="false">Em</string>
+    <string name="edim" translatable="false">Edim</string>
+    <string name="f" translatable="false">F</string>
+    <string name="fm" translatable="false">Fm</string>
+    <string name="f_" translatable="false">F#</string>
+    <string name="f_dim" translatable="false">F#dim</string>
+    <string name="g" translatable="false">G</string>
+    <string name="gm" translatable="false">Gm</string>
+    <string name="gdim" translatable="false">Gdim</string>
+    <string name="g_" translatable="false">G#</string>
+
+    <!-- Activity 11 -->
+    <string name="s11t1">Chord Menu</string>
+
+
+</resources>

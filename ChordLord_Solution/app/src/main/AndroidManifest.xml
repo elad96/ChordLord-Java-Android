@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="il.ac.hit.chordlord">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ChordLord">
+        <activity android:name=".activity_11_chord_screen"></activity>
+        <activity
+            android:name=".activity_10_learn_chords_piano"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity_9_learn_chords_guitar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity_8_learn_instrument"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity_7_leaderboards"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity_6_game_score"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity_5_game_quiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity_4_game_scale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity_3_game_difficulty"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity_2_game_instrument"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity_1_main"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

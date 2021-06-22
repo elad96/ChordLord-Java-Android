@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="UIDarkGray">#282829</color>
+    <color name="UILightGray">#D9E1F2</color>
+    <color name="UIlightBlue">#B1CEF1</color>
+    <color name="UIlightCyan">#BCDBEF</color>
+    <color name="PGreen">#A9D18E</color>
+    <color name="PYellow">#FFE699</color>
+    <color name="PRed">#FF9F9F</color>
+    <color name="StrongBlue">#000066</color>
+    <color name="StrongGreen">#008000</color>
+    <color name="StrongRed">#FF4B4B</color>
+    <color name="StronGray">#393939</color>
+    <color name="Black">#000000</color>
+    <color name="button_1">#30345E</color>
+    <color name="button_2">#4372A5</color>
+    <color name="button_3">#284FAF</color>
+    <color name="font_1">#E0DEFF</color>
+    <color name="font_2">#0C1B3C</color>
+</resources>

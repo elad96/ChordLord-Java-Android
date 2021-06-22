@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ChordLord</string>
+    <string name="s1t1">מלך האקורדים</string>
+    <string name="s1t2">הכנס שמך:</string>
+    <string name="s1t3">הקלד שמך כאן</string>
+    <string name="s1t4">לחץ להתחיל</string>
+    <string name="s1t5">טבלת השיאים</string>
+    <string name="s1t6">מדריך האקורדים</string>
+    <string name="s1t7">שם לא תקין</string>
+    <string name="s2t1">בחר כלי נגינה</string>
+    <string name="s2t2">פסנתר</string>
+    <string name="s2t3">גיטרה</string>
+    <string name="s3t1">בחר רמת קושי</string>
+    <string name="s3t2">מתחיל (2 אקורדים)</string>
+    <string name="s3t4">מקצוען (4 אקורדים)</string>
+    <string name="s3t3">ביניים (3 אקורדים)</string>
+    <string name="s4t1">בחר סולם</string>
+    <string name="s5t1">נקודות: </string>
+    <string name="s5t2">מחסן אקורדים: </string>
+    <string name="s5t3">צדקת: </string>
+    <string name="s5t4">טעית: </string>
+    <string name="s5t5">לחץ להשמעת האקורד: </string>
+    <string name="s5t6">בחר באקורד ששמעת:</string>
+    <string name="s6t1">ברכותיי!</string>
+    <string name="s6t2">הניקוד שלך הוא</string>
+    <string name="s6t3">נקודות</string>
+    <string name="s6t4">עם מספר אקורדים של</string>
+    <string name="s6t5">אקורדים</string>
+    <string name="s6t7">נק\'</string>
+    <string name="s6t8">אק\'</string>
+    <string name="s6t9">תפריט ראשי</string>
+    <string name="s7t1">טבלת השיאים</string>
+    <string name="s7t2">תפריט ראשי</string>
+    <string name="s8t1">בחר כלי נגינה</string>
+    <string name="s8t2">פסנתר</string>
+    <string name="s8t3">גיטרה</string>
+    <string name="s9t1">אקורדים לגיטרה</string>
+    <string name="s9t2">חזרה לתפריט הראשי</string>
+    <string name="s10t1">אקורדים לפסנתר</string>
+    <string name="s10t2">חזרה לתפריט הראשי</string>
+    <string name="s5t0">ש:</string>
+    <string name="s11t1">תפריט האקורדים</string>
+    <string name="s2t4">חזרה</string>
+    <string name="s6t10">משחק חוזר</string>
+</resources>

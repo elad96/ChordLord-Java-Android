@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_4_game_scale"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/top_4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/s1t1"
+            android:layout_weight="1.7"
+            android:shadowColor="#000000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:textSize="42sp"
+            android:textStyle="bold"
+            android:background="@drawable/gradient_anim_list"
+            tools:ignore="RtlCompat"
+            app:drawableLeftCompat="@drawable/note_top_icon" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/chooseScale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/s4t1"
+        android:textColor="@color/font_2"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="2">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:text="@string/s4t2"
+            android:textAllCaps="false"
+            android:textSize="24sp"
+            android:textColor="@color/font_1"
+            android:background="@drawable/btn_rpl_effect"
+            android:shadowColor="#000000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_margin="10dp"
+            android:id="@+id/c_lonian_btn"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:background="@drawable/btn_rpl_effect"
+            android:shadowColor="#000000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="@string/s4t3"
+            android:textAllCaps="false"
+            android:textSize="24sp"
+            android:textColor="@color/font_1"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:id="@+id/c_dorian_btn"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:background="@drawable/btn_rpl_effect"
+            android:shadowColor="#000000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="@string/s4t4"
+            android:textAllCaps="false"
+            android:textSize="24sp"
+            android:textColor="@color/font_1"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_margin="10dp"
+            android:id="@+id/c_phrygian_btn"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:background="@drawable/btn_rpl_effect"
+            android:shadowColor="#000000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="@string/s4t5"
+            android:textAllCaps="false"
+            android:textSize="24sp"
+            android:textColor="@color/font_1"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_margin="10dp"
+            android:id="@+id/c_lydian_btn"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:background="@drawable/btn_rpl_effect"
+            android:shadowColor="#000000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="@string/s4t6"
+            android:textAllCaps="false"
+            android:textSize="24sp"
+            android:textColor="@color/font_1"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_margin="10dp"
+            android:id="@+id/c_mixolydian_btn"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:background="@drawable/btn_rpl_effect"
+            android:shadowColor="#000000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="@string/s4t7"
+            android:textAllCaps="false"
+            android:textSize="24sp"
+            android:textColor="@color/font_1"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_margin="10dp"
+            android:id="@+id/c_aeolian_btn"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:background="@drawable/btn_rpl_effect"
+            android:shadowColor="#000000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="@string/s4t8"
+            android:textAllCaps="false"
+            android:textSize="24sp"
+            android:textColor="@color/font_1"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_margin="10dp"
+            android:id="@+id/c_locrian_btn"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:background="@drawable/btn_rpl_effect"
+            android:shadowColor="#000000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="@string/s2t4"
+            android:textAllCaps="false"
+            android:textSize="32sp"
+            android:textColor="@color/font_1"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_margin="10dp"
+            android:id="@+id/back_btn"/>
+
+    </GridLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_8_learn_instrument"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/top_8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/s1t1"
+            android:layout_weight="1.7"
+            android:shadowColor="#000000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:textSize="42sp"
+            android:textStyle="bold"
+            android:background="@drawable/gradient_anim_list"
+            tools:ignore="RtlCompat"
+            app:drawableLeftCompat="@drawable/note_top_icon" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/chooseInstrument"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/s8t1"
+        android:textColor="@color/font_2"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="38sp"
+        android:textStyle="bold" />
+
+
+    <ImageButton
+        android:id="@+id/piano_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:padding="20dp"
+        android:background="@null"
+        android:src="@drawable/piano_selector" />
+
+    <ImageButton
+        android:id="@+id/guitar_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:padding="5dp"
+        android:background="@null"
+        android:src="@drawable/guitar_selector" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_rpl_effect"
+        android:text="@string/s2t4"
+        android:textAllCaps="false"
+        android:textSize="35sp"
+        android:padding="2dp"
+        android:scaleX="1.07"
+        android:scaleY="1.07"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/back_btn"/>
+
+</LinearLayout>
